@@ -59,28 +59,9 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "pages/viewContainer/movableView/movableView",
-					"pathName": "pages/viewContainer/movableView/movableView",
+					"name": "pages/formComponents/button/button",
+					"pathName": "pages/formComponents/button/button",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/viewContainer/scrollView/scrollView",
-					"pathName": "pages/viewContainer/scrollView/scrollView",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/viewContainer/swiper/swiper",
-					"pathName": "pages/viewContainer/swiper/swiper",
 					"scene": null
 				}
 			]
