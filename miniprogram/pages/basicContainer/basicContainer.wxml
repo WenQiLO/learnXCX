@@ -20,4 +20,11 @@
       <text>richText</text>
     </navigator>
   </view>
+
+  <!-- text -->
+  <view class="uploader">
+    <navigator url="./text/text" open-type="navigate" class="uploader-text">
+      <text>text</text>
+    </navigator>
+  </view>
 </view>

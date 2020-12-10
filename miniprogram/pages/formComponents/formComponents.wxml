@@ -1,0 +1,80 @@
+<!--index.wxml-->
+<view class="container">
+<!-- button -->
+  <view class="uploader">
+    <navigator url="./button/button" open-type="navigate" class="uploader-text">
+      <text>button</text>
+    </navigator>
+  </view>
+
+  <!-- checkbox -->
+  <view class="uploader">
+    <navigator url="./checkbox/checkbox" open-type="navigate" class="uploader-text">
+      <text>checkbox</text>
+    </navigator>
+  </view>
+
+   <!-- editor -->
+  <view class="uploader">
+    <navigator url="./editor/editor" open-type="navigate" class="uploader-text">
+      <text>editor</text>
+    </navigator>
+  </view>
+  
+   <!-- form -->
+  <view class="uploader">
+    <navigator url="./form/form" open-type="navigate" class="uploader-text">
+      <text>form</text>
+    </navigator>
+  </view>
+  
+   <!-- input -->
+  <view class="uploader">
+    <navigator url="./input/input" open-type="navigate" class="uploader-text">
+      <text>input</text>
+    </navigator>
+  </view>
+
+   <!-- picker -->
+  <view class="uploader">
+    <navigator url="./picker/picker" open-type="navigate" class="uploader-text">
+      <text>picker</text>
+    </navigator>
+  </view>
+  
+   <!-- radio -->
+  <view class="uploader">
+    <navigator url="./radio/radio" open-type="navigate" class="uploader-text">
+      <text>radio</text>
+    </navigator>
+  </view>
+  
+   <!-- slider -->
+  <view class="uploader">
+    <navigator url="./slider/slider" open-type="navigate" class="uploader-text">
+      <text>slider</text>
+    </navigator>
+  </view>
+
+  <!-- slider -->
+  <view class="uploader">
+    <navigator url="./slider/slider" open-type="navigate" class="uploader-text">
+      <text>slider</text>
+    </navigator>
+  </view>
+
+  <!-- switch -->
+  <view class="uploader">
+    <navigator url="./switch/switch" open-type="navigate" class="uploader-text">
+      <text>switch</text>
+    </navigator>
+  </view>
+
+   <!-- textarea -->
+  <view class="uploader">
+    <navigator url="./textarea/textarea" open-type="navigate" class="uploader-text">
+      <text>textarea</text>
+    </navigator>
+  </view>
+
+</view>

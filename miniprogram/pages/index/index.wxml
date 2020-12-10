@@ -9,14 +9,14 @@
 
   <!-- 基础内容 -->
   <view class="uploader">
-    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+    <navigator url="../basicContainer/basicContainer" open-type="navigate" class="uploader-text">
       <text>基础内容</text>
     </navigator>
   </view>
 
   <!-- 表单组件 -->
   <view class="uploader">
-    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+    <navigator url="../formComponents/formComponents" open-type="navigate" class="uploader-text">
       <text>表单组件</text>
     </navigator>
   </view>
