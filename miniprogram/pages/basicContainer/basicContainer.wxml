@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- progress -->
+  <view class="uploader">
+    <navigator url="./icon/icon" open-type="navigate" class="uploader-text">
+      <text>icon</text>
+    </navigator>
+  </view>
+
+  <!-- progress -->
+  <view class="uploader">
+    <navigator url="./progress/progress" open-type="navigate" class="uploader-text">
+      <text>progress</text>
+    </navigator>
+  </view>
+
+   <!-- richText -->
+  <view class="uploader">
+    <navigator url="./richText/richText" open-type="navigate" class="uploader-text">
+      <text>richText</text>
+    </navigator>
+  </view>
+</view>

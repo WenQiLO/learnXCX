@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 视图组件 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>视图组件</text>
+    </navigator>
+  </view>
+
+  <!-- 基础内容 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>基础内容</text>
+    </navigator>
+  </view>
+
+  <!-- 表单组件 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>表单组件</text>
+    </navigator>
+  </view>
+
+  <!-- 导航 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>导航</text>
+    </navigator>
+  </view>
+
+  <!-- 媒体组件 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>媒体组件</text>
+    </navigator>
+  </view>
+
+   <!-- 地图 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>地图</text>
+    </navigator>
+  </view>
+  
+   <!-- 画布 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>画布</text>
+    </navigator>
+  </view>
+  
+   <!-- 开放能力 -->
+  <view class="uploader">
+    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+      <text>开放能力</text>
+    </navigator>
+  </view>
+
+</view>

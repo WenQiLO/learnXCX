@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/viewContainer/viewContainer",
+    "pages/viewContainer/coverView/coverView",
+    "pages/viewContainer/matchMedia/matchMedia",
+    "pages/viewContainer/movableView/movableView",
+    "pages/viewContainer/scrollView/scrollView",
+    "pages/viewContainer/swiper/swiper",
+    "pages/basicContainer/basicContainer"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小程序组件解读",
+    "navigationBarTextStyle": "black",
+    "pageOrientation": "auto"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

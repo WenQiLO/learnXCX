@@ -1,0 +1,22 @@
+<view class="container">
+  <cover-image class="coverImage" src="https://smp.med.gzhc365.com/views/p281/lakers.png"></cover-image>
+  <image class="image" mode="widthFix" src="https://smp.med.gzhc365.com/views/p281/lakers.png"></image>
+  <div class="long-block"></div>
+<!-- 
+  <input class="input" placeholder="请输入您的姓名" />
+  <input class="input" placeholder="请输入您的电话" />
+  <input class="input" placeholder="请输入您的住址" />
+  <textarea name="" id="" cols="30" rows="10" placeholder="病情出现和发展时间"></textarea>
+  <input class="input" placeholder="请输入您的性别" />
+  <input class="input" placeholder="请输入您的诉求" />
+  <map class="map"></map>
+  <button type="primary" bindtap="toggleModal">弹窗</button>
+  <view class="modal" wx:if="{{showModal}}">
+    <view class="modal-content">这是用view来做的弹框!</view>
+    <button class="close-btn" type="primary" bindtap="toggleModal">收起</button>
+  </view>
+  <cover-view class="modal" wx:if="{{showModal}}">
+    <cover-view class="modal-content">这是用cover-view来做的弹框!</cover-view>
+    <button class="close-btn" type="primary" bindtap="toggleModal">收起</button>
+  </cover-view> -->
+</view>

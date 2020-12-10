@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+<match-media min-width="0" max-width="400">
+  <view>手机纵向屏幕展示这里</view>
+</match-media>
+
+<match-media min-width="400" max-width="1000">
+  <view>手机横向屏幕展示这里</view>
+</match-media>
+</view>

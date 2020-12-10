@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- coverView -->
+  <view class="uploader">
+    <navigator url="./coverView/coverView" open-type="navigate" class="uploader-text">
+      <text>coverView</text>
+    </navigator>
+  </view>
+
+  <!-- matchMedia -->
+  <view class="uploader">
+    <navigator url="./matchMedia/matchMedia" open-type="navigate" class="uploader-text">
+      <text>matchMedia</text>
+    </navigator>
+  </view>
+
+   <!-- movableView -->
+  <view class="uploader">
+    <navigator url="./movableView/movableView" open-type="navigate" class="uploader-text">
+      <text>movableView</text>
+    </navigator>
+  </view>
+  
+   <!-- scrollView -->
+  <view class="uploader">
+    <navigator url="./scrollView/scrollView" open-type="navigate" class="uploader-text">
+      <text>scrollView</text>
+    </navigator>
+  </view>
+  
+   <!-- swiper -->
+  <view class="uploader">
+    <navigator url="./swiper/swiper" open-type="navigate" class="uploader-text">
+      <text>swiper</text>
+    </navigator>
+  </view>
+
+</view>
