@@ -1,7 +1,5 @@
-.intro {
-  margin: 30px;
-  text-align: center;
-}
-.body-view{
-  text-align: center;
+@import "../lib/weui.wxss";
+
+.page-section{
+  margin-bottom: 20rpx;
 }

@@ -1,0 +1,11 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+button{
+  width: 100%;
+  margin-top: 15px;
+}
+.tc{
+  text-align: center;
+}

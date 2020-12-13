@@ -23,28 +23,28 @@
 
   <!-- 导航 -->
   <view class="uploader">
-    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+    <navigator url="../navigation/navigation" open-type="navigate" class="uploader-text">
       <text>导航</text>
     </navigator>
   </view>
 
   <!-- 媒体组件 -->
   <view class="uploader">
-    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+    <navigator url="../mediaComponents/mediaComponents" open-type="navigate" class="uploader-text">
       <text>媒体组件</text>
     </navigator>
   </view>
 
    <!-- 地图 -->
   <view class="uploader">
-    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+    <navigator url="../map/map" open-type="navigate" class="uploader-text">
       <text>地图</text>
     </navigator>
   </view>
   
    <!-- 画布 -->
   <view class="uploader">
-    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+    <navigator url="../canvas/canvas" open-type="navigate" class="uploader-text">
       <text>画布</text>
     </navigator>
   </view>

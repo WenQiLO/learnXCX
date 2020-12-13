@@ -6,4 +6,7 @@ page {
   flex-direction: column;
   justify-content: flex-start;
 }
-
+.intro {
+  margin: 30px;
+  text-align: center;
+}

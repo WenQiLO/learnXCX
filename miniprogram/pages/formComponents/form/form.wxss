@@ -2,6 +2,10 @@
   margin: 30px;
   text-align: center;
 }
-.body-view{
-  text-align: center;
+.submit{
+  margin: 20px 0;
+}
+input{
+  border: 1px solid #ccc;
+  margin:8px 0;
 }

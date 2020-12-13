@@ -1,7 +1,8 @@
-.intro {
-  margin: 30px;
-  text-align: center;
+.radio-group {
+    border-bottom: 1px solid #ddd;
 }
-.body-view{
-  text-align: center;
+.radio {
+    display: block;
+    border-top: 1px solid #ddd;
+    padding: 5px;
 }

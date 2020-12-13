@@ -1,0 +1,22 @@
+page{
+  height: 100%;
+}
+.preview-tips {
+  margin: 20rpx 0;  
+}
+.btn-area{
+  margin-top: 15px;
+}
+.video {
+  margin: 50px auto;
+  width: 100%;
+  height: 300px;
+}
+.modal{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  position: fixed;
+	top: calc(50% - 100px);
+	left: calc(50% - 100px);
+}

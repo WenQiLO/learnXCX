@@ -25,8 +25,28 @@
     "pages/formComponents/radio/radio",
     "pages/formComponents/slider/slider",
     "pages/formComponents/switch/switch",
-    "pages/formComponents/textarea/textarea"
+    "pages/formComponents/textarea/textarea",
+
+    "pages/navigation/navigation",
+    "pages/navigation/functionalPageNavigator/functionalPageNavigator",
+    "pages/navigation/navigator/navigator",
+    "pages/navigation/navigate/navigate",
+    "pages/navigation/redirect/redirect",
+
+    "pages/mediaComponents/mediaComponents",
+    "pages/mediaComponents/audio/audio",
+    "pages/mediaComponents/camera/camera",
+    "pages/mediaComponents/cameraScan/cameraScan",
+    "pages/mediaComponents/video/video",
+
+    "pages/map/map",
+    "pages/canvas/canvas"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",

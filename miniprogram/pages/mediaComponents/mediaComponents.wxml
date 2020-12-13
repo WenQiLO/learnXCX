@@ -1,0 +1,29 @@
+<view class="container">
+  <!-- audio -->
+  <view class="uploader">
+    <navigator url="./audio/audio" open-type="navigate" class="uploader-text">
+      <text>audio</text>
+    </navigator>
+  </view>
+
+  <!-- camera -->
+  <view class="uploader">
+    <navigator url="./camera/camera" open-type="navigate" class="uploader-text">
+      <text>camera-拍摄</text>
+    </navigator>
+  </view>
+
+  <!-- camera -->
+  <view class="uploader">
+    <navigator url="./cameraScan/cameraScan" open-type="navigate" class="uploader-text">
+      <text>camera-扫码</text>
+    </navigator>
+  </view>
+
+   <!-- video -->
+  <view class="uploader">
+    <navigator url="./video/video" open-type="navigate" class="uploader-text">
+      <text>video</text>
+    </navigator>
+  </view>
+</view>

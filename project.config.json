@@ -63,6 +63,20 @@
 					"pathName": "pages/formComponents/button/button",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/formComponents/checkbox/checkbox",
+					"pathName": "pages/formComponents/checkbox/checkbox",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/formComponents/form/form",
+					"pathName": "pages/formComponents/form/form",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

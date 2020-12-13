@@ -1,3 +1,4 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "富文本编辑器",
+  "disableScroll": true
 }

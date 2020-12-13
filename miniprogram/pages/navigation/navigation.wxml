@@ -1,0 +1,15 @@
+<view class="container">
+  <!-- functionalPageNavigator -->
+  <view class="uploader">
+    <navigator url="./functionalPageNavigator/functionalPageNavigator" open-type="navigate" class="uploader-text">
+      <text>functionalPageNavigator</text>
+    </navigator>
+  </view>
+
+  <!-- navigator -->
+  <view class="uploader">
+    <navigator url="./navigator/navigator" open-type="navigate" class="uploader-text">
+      <text>navigator</text>
+    </navigator>
+  </view>
+</view>

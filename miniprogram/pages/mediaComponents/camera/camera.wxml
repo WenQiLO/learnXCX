@@ -1,0 +1,22 @@
+<view class="page-body">
+  <view class="page-body-wrapper">
+    <camera device-position="{{direction}}" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+    <view class="btn-area">
+      <button type="primary" bindtap="changeDirection">摄像头朝向</button>
+    </view>
+    <view class="btn-area">
+      <button type="primary" bindtap="takePhoto">拍照</button>
+    </view>
+    <view class="btn-area">
+      <button type="primary" loading="{{startLoading}}" bindtap="startRecord">{{startText}}</button>
+    </view>
+    <view class="btn-area">
+      <button type="primary" bindtap="stopRecord">结束录像</button>
+    </view>
+    <view class="preview-tips">预览</view>
+    <view wx:if="{{src}}">src: {{src}}</view>
+    <image wx:if="{{src}}" mode="widthFix" src="{{src}}"></image>
+    <view wx:if="{{videoSrc}}">videoSrc: {{videoSrc}}</view>
+    <video wx:if="{{videoSrc}}" class="video" src="{{videoSrc}}"></video>
+  </view>
+</view>

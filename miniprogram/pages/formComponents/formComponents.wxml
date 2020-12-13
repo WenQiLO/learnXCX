@@ -48,13 +48,6 @@
       <text>radio</text>
     </navigator>
   </view>
-  
-   <!-- slider -->
-  <view class="uploader">
-    <navigator url="./slider/slider" open-type="navigate" class="uploader-text">
-      <text>slider</text>
-    </navigator>
-  </view>
 
   <!-- slider -->
   <view class="uploader">
