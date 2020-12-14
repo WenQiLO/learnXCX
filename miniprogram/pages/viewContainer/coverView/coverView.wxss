@@ -52,7 +52,6 @@ textarea{
   position: fixed;
 	bottom: 20px;
   left: calc(50% - 150px);
-  z-index: 10;
 }
 .close-btn{
   width: 80%;
