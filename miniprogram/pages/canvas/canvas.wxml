@@ -1,6 +1,15 @@
 <!--index.wxml-->
 <view class="container">
-viewContainer
-viewContainer
-viewContainer
+  <view class="uploader">
+    <navigator url="./canvas2D/canvas2D" open-type="navigate" class="uploader-text">
+      <text>canvas2D</text>
+    </navigator>
+  </view>
+
+  <!-- 基础内容 -->
+  <view class="uploader">
+    <navigator url="./webGL/webGL" open-type="navigate" class="uploader-text">
+      <text>webGL</text>
+    </navigator>
+  </view>
 </view>

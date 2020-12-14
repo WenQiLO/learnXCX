@@ -1,18 +1,27 @@
-//index.js
-const app = getApp()
-
 Page({
-  data: {
-    showModal: false,
+  onShareAppMessage() {
+    return {
+      title: 'cover-view',
+      path: 'page/component/pages/cover-view/cover-view'
+    }
   },
 
-  onLoad: function() {
-    
+  data: {
+    showModalV: false,
+    showModalCV: false,
+    latitude: 23.099994,
+    longitude: 113.324520,
   },
-  toggleModal() {
-    const { showModal } = this.data;
+  toggleModalV() {
+    const { showModalV } = this.data;
     this.setData({
-      showModal: !showModal,
+      showModalV: !showModalV,
+    });
+  },
+  toggleModalCV() {
+    const { showModalCV } = this.data;
+    this.setData({
+      showModalCV: !showModalCV,
     });
   }
 })

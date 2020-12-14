@@ -1,0 +1,5 @@
+<view class="container">
+  <cover-image class="coverImage" src="https://smp.med.gzhc365.com/views/p281/lakers.png"></cover-image>
+  <image class="image" mode="widthFix" src="https://smp.med.gzhc365.com/views/p281/lakers.png"></image>
+  <div class="long-block"></div>
+</view>

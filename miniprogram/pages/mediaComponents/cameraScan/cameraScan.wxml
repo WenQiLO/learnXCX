@@ -1,7 +1,7 @@
 <view style="height: 100%">
   <camera mode="scanCode" bindscancode="scanFinish" flash="off" binderror="error" style="width: 100%; height: 100%"></camera>
-  <!-- <view class="modal" wx:if="{{showModal}}">
+  <view class="modal" wx:if="{{showModal}}">
     <view class="modal-content">这是用view来做的弹框! 确定跳转此链接吗？</view>
     <button class="close-btn" type="primary" bindtap="toggleModal">收起</button>
-  </view> -->
+  </view>
 </view>

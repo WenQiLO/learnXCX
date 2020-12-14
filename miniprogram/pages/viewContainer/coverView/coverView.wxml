@@ -1,22 +1,56 @@
-<view class="container">
-  <cover-image class="coverImage" src="https://smp.med.gzhc365.com/views/p281/lakers.png"></cover-image>
-  <image class="image" mode="widthFix" src="https://smp.med.gzhc365.com/views/p281/lakers.png"></image>
-  <div class="long-block"></div>
-<!-- 
-  <input class="input" placeholder="请输入您的姓名" />
-  <input class="input" placeholder="请输入您的电话" />
-  <input class="input" placeholder="请输入您的住址" />
-  <textarea name="" id="" cols="30" rows="10" placeholder="病情出现和发展时间"></textarea>
-  <input class="input" placeholder="请输入您的性别" />
-  <input class="input" placeholder="请输入您的诉求" />
-  <map class="map"></map>
-  <button type="primary" bindtap="toggleModal">弹窗</button>
-  <view class="modal" wx:if="{{showModal}}">
-    <view class="modal-content">这是用view来做的弹框!</view>
-    <button class="close-btn" type="primary" bindtap="toggleModal">收起</button>
-  </view>
-  <cover-view class="modal" wx:if="{{showModal}}">
-    <cover-view class="modal-content">这是用cover-view来做的弹框!</cover-view>
-    <button class="close-btn" type="primary" bindtap="toggleModal">收起</button>
-  </cover-view> -->
+<view class="modal" wx:if="{{showModalV}}">
+  <view class="modal-content">这是用view来做的弹框!</view>
+  <button class="close-btn" type="primary" bindtap="toggleModalV">收起</button>
 </view>
+<cover-view class="modal" wx:if="{{showModalCV}}">
+  <cover-view class="modal-content">这是用cover-view来做的弹框!</cover-view>
+  <button class="close-btn" type="primary" bindtap="toggleModalCV">收起</button>
+</cover-view>
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <map
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+    >
+      <cover-view class="cover-view">
+        <cover-view class="container">
+          <cover-view class="flex-wrp" style="flex-direction:row;">
+            <cover-view class="flex-item demo-text-1"></cover-view>
+            <cover-view class="flex-item demo-text-2"></cover-view>
+            <cover-view class="flex-item demo-text-3"></cover-view>
+          </cover-view>
+        </cover-view>
+      </cover-view>
+    </map>
+  </view>
+</view>
+
+<view class="page-body f-mt-10">
+  <view class="page-section page-section-gap">
+    <map
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+    >
+      <view class="cover-view">
+        <view class="container">
+          <view class="flex-wrp" style="flex-direction:row;">
+            <view class="flex-item demo-text-1"></view>
+            <view class="flex-item demo-text-2"></view>
+            <view class="flex-item demo-text-3"></view>
+          </view>
+        </view>
+      </view>
+    </map>
+  </view>
+</view>
+
+<input class="input f-mt-10" placeholder="请输入您的姓名" />
+<input class="input" placeholder="请输入您的电话" />
+<input class="input" placeholder="请输入您的住址" />
+<textarea name="" id="" cols="30" rows="10" placeholder="病情出现和发展时间"></textarea>
+<input class="input" placeholder="请输入您的性别" />
+<input class="input" placeholder="请输入您的诉求" />
+<button type="primary" bindtap="toggleModalV">view弹框</button>
+<button type="primary" bindtap="toggleModalCV">cover-view弹框</button>

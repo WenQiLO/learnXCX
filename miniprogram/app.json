@@ -4,6 +4,7 @@
 
     "pages/viewContainer/viewContainer",
     "pages/viewContainer/coverView/coverView",
+    "pages/viewContainer/coverImage/coverImage",
     "pages/viewContainer/matchMedia/matchMedia",
     "pages/viewContainer/movableView/movableView",
     "pages/viewContainer/scrollView/scrollView",
@@ -40,7 +41,12 @@
     "pages/mediaComponents/video/video",
 
     "pages/map/map",
-    "pages/canvas/canvas"
+    "pages/canvas/canvas",
+    "pages/canvas/canvas2D/canvas2D",
+    "pages/canvas/webGL/webGL",
+    "pages/openNess/openNess",
+    "pages/openNess/openData/openData"
+
   ],
   "permission": {
     "scope.userLocation": {

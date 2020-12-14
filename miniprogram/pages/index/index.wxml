@@ -51,7 +51,7 @@
   
    <!-- 开放能力 -->
   <view class="uploader">
-    <navigator url="../viewContainer/viewContainer" open-type="navigate" class="uploader-text">
+    <navigator url="../openNess/openNess" open-type="navigate" class="uploader-text">
       <text>开放能力</text>
     </navigator>
   </view>

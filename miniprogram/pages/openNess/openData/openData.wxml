@@ -1,0 +1,18 @@
+<view class="container">
+  <open-data type="groupName" open-gid="xxxxxx"></open-data>
+  userAvatarUrl
+  <open-data type="userAvatarUrl"></open-data>
+  userNickName
+  <open-data type="userNickName"></open-data>
+  userGender
+  <open-data type="userGender" lang="zh_CN"></open-data>
+  userCountry
+  <open-data type="userCountry" lang="zh_CN"></open-data>
+  userProvince
+  <open-data type="userProvince" lang="zh_CN"></open-data>
+  userCity
+  <open-data type="userCity" lang="zh_CN"></open-data>
+  userLanguage
+  <open-data type="userLanguage"></open-data>
+
+</view>

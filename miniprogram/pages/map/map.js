@@ -16,7 +16,9 @@ Page({
       latitude: 23.099994,
       longitude: 113.304520,
       iconPath: '/image/location.png'
-    }]
+    }],
+    showModalV: false,
+    showModalCV: false
   },
   onReady: function (e) {
     this.mapCtx = wx.createMapContext('myMap')
@@ -59,5 +61,5 @@ Page({
         longitude:113.3345211,
       }]
     })
-  }
+  },
 })
